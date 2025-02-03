@@ -1,5 +1,9 @@
 #Radhe Radhe 
-powers=[3,8,9,7]
+num=int(input("Enter the number of pokemion:"))
+powers=[]
+for i in range(num):
+    power=int(input("Enter the power of pokemon:"))
+    powers.append(power)
 
 mini, maxi=0,0
 
